@@ -13,8 +13,8 @@ export const getSearch = async(searchTerm:string):Promise<any> => {
 
     //await axios.get(`${parsedUrl}`)
     try {
-        const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/bulbasaur`)
-        //const response = await axios.get(`${parsedUrl}`)
+        //const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/bulbasaur`)
+        const response = await axios.get(`${parsedUrl}`)
         return response.data
     } catch (error) {
         throw new Error(error as string)
