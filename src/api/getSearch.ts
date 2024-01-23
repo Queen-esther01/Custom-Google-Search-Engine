@@ -1,5 +1,4 @@
-import axios, { AxiosError, AxiosPromise } from "axios"
-import { SearchResult } from "../types/search"
+import axios from "axios"
 
 
 export const getSearch = async(searchTerm:string):Promise<any> => {

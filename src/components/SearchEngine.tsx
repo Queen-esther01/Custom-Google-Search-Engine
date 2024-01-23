@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 // import results from './data.json'
 import { useFetchData } from '../hooks/useFetchQuery'
-import { SearchItem, SearchResult } from '../types/search'
+import { SearchItem } from '../types/search'
 
 const SearchEngine = () => {
 
