@@ -11,13 +11,21 @@ export const getSearch = async(searchTerm:string):Promise<any> => {
     const parsedUrl = url.toString()
 
 
-    await axios.get(`${parsedUrl}`)
-    .then((response) => {
+    //await axios.get(`${parsedUrl}`)
+    try {
+        const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/bulbasaur`)
+        //const response = await axios.get(`${parsedUrl}`)
         return response.data
-    })
-    .catch(({ message }) => {
-        console.log(message)
-        throw new Error(message)
+    } catch (error) {
+        throw new Error(error as string)
+    }
+    // .then((response) =>  {
+    //     console.log(response.data)
+    //     return response.data
+    // })
+    // .catch(({ message }) => {
+    //     console.log(message)
+    //     throw new Error(message)
         
-    })
+    // })
 }

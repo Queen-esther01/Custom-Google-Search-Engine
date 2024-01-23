@@ -1,16 +1,18 @@
-import  { useEffect, useState } from 'react'
+import  { useEffect, useState, useRef, RefObject } from 'react'
 // import results from './data.json'
 import { useFetchData } from '../hooks/useFetchQuery'
 import { SearchItem } from '../types/search'
+import Loader from './Loader'
 
 const SearchEngine = () => {
+
+    const inputRef: RefObject<HTMLInputElement> = useRef(null)
 
     const [ searchTerm, setSearchTerm ] = useState('')
     const [ requestsLimit, setRequestsLimit ] = useState(false)
 
-    const { data:results, error, isError } = useFetchData(searchTerm)
-    // console.log(results)
-    // console.log(error?.message)
+    const { data:results, error, isError, isLoading, isFetching } = useFetchData(searchTerm)
+
 
     useEffect(() => {
         if(isError && error?.message.includes('429')){
@@ -30,14 +32,22 @@ const SearchEngine = () => {
         }, 2000);
     }
 
+    const clearInput = () => {
+        setSearchTerm('')
+        inputRef.current!.value = ''
+    }
+
 
     return (
         <div>
             {
                 searchTerm === '' && !results && !requestsLimit &&
-                <div className='h-[80vh] flex flex-col gap-8 justify-center items-center'>
+                <div className='h-[80vh] flex flex-col gap-8 justify-center items-center px-10 md:px-0'>
                     <h1 className='text-white text-5xl lg:text-7xl'>Noogle</h1>
-                    <input  onChange={handleSearch} type='text' className=' rounded-3xl text-white border-[0.5px] border-slate-200 cursor-pointer bg-transparent w-full lg:w-1/2 lg:max-w-xl px-10 py-3 hover:bg-slate-500 hover:border-slate-500 focus:bg-slate-500 focus:border-slate-500 outline-none'/>
+                    <div className='lg:w-1/2 lg:max-w-xl flex items-center relative'>
+                        <input onChange={handleSearch} type='text' className=' rounded-3xl text-white border-[0.5px] border-slate-200 cursor-pointer bg-transparent w-full  px-10 py-3 hover:bg-slate-500 hover:border-slate-500 focus:bg-slate-500 focus:border-slate-500 outline-none'/>
+                        { isFetching && <Loader classname='absolute right-2'/> }
+                    </div>
                     <div className='flex gap-3'>
                         <div className='bg-slate-700 text-sm border-[0.5px] border-slate-700 hover:border-[0.5px] hover:border-slate-200 text-white rounded-md px-5 py-2 cursor-pointer'><span>Noogle Search</span></div>
                         <div className='bg-slate-700 text-sm border-[0.5px] border-slate-700 hover:border-[0.5px] hover:border-slate-200 text-white rounded-md px-5 py-2 cursor-pointer'><span><a href='https://doodles.google' target="_blank">I'm Feeling Lucky</a></span></div>
@@ -58,11 +68,16 @@ const SearchEngine = () => {
                 </div>
             }
             {
-                searchTerm !== '' && results! && !requestsLimit &&
+                results! && !requestsLimit && !isLoading &&
                 <div>
                     <div className='flex items-center gap-5 lg:gap-10 px-5 md:px-20 lg:px-24'>
                         <h2 className='text-white text-xl lg:text-3xl mb-10 mt-8'>Noogle</h2>
-                        <input defaultValue={searchTerm} type='text' className=' rounded-3xl text-white border-[0.5px]  cursor-pointer bg-transparent w-full lg:w-1/2 lg:max-w-xl px-10 py-2 lg:py-3 bg-slate-500 border-slate-500 focus:bg-slate-500 focus:border-slate-500 outline-none'/>
+                        <div className='lg:w-1/2 lg:max-w-xl flex items-center relative'>
+                            <input ref={inputRef} defaultValue={searchTerm} onChange={handleSearch} type='text' className=' rounded-3xl text-white border-[0.5px]  cursor-pointer bg-transparent w-full  px-10 py-2 lg:py-3 bg-slate-500 border-slate-500 focus:bg-slate-500 focus:border-slate-500 outline-none'/>
+                            {
+                                searchTerm !== '' && !isFetching && <span onClick={clearInput} className='absolute right-5 text-white font-medium cursor-pointer'>x</span>
+                            }
+                        </div>
                     </div>
                     <hr className='border-t-[0.5px] border-t-slate-500 mt-2'/>
                     <div className='px-5 md:px-20 lg:px-60'>
