@@ -1,6 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
 import { getSearch } from "../api/getSearch"
-import { SearchResult } from '../types/search'
 
 export const useFetchData = (searchTerm: string) => {
     
