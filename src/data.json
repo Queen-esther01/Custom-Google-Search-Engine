@@ -1,0 +1,515 @@
+{
+    "kind": "customsearch#search",
+    "url": {
+        "type": "application/json",
+        "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+    },
+    "queries": {
+        "request": [
+            {
+                "title": "Google Custom Search - pink please dont leave e",
+                "totalResults": "637000000",
+                "searchTerms": "pink please dont leave e",
+                "count": 10,
+                "startIndex": 1,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "77d48983865094fcc"
+            }
+        ],
+        "nextPage": [
+            {
+                "title": "Google Custom Search - pink please dont leave e",
+                "totalResults": "637000000",
+                "searchTerms": "pink please dont leave e",
+                "count": 10,
+                "startIndex": 11,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "77d48983865094fcc"
+            }
+        ]
+    },
+    "context": {
+        "title": "First-Search-Engine"
+    },
+    "searchInformation": {
+        "searchTime": 0.277746,
+        "formattedSearchTime": "0.28",
+        "totalResults": "637000000",
+        "formattedTotalResults": "637,000,000"
+    },
+    "spelling": {
+        "correctedQuery": "pink please don't leave me",
+        "htmlCorrectedQuery": "pink please <b><i>don&#39;t</i></b> leave <b><i>me</i></b>"
+    },
+    "items": [
+        {
+            "kind": "customsearch#result",
+            "title": "P!nk - Please Don't Leave Me (Official Video) - YouTube",
+            "htmlTitle": "<b>P!nk</b> - <b>Please Don&#39;t Leave</b> Me (Official Video) - YouTube",
+            "link": "https://www.youtube.com/watch?v=eocCPDxKq1o",
+            "displayLink": "www.youtube.com",
+            "snippet": "Oct 25, 2009 ... P!nk's official music video for 'F**kin' Perfect (Perfect)'. Click to listen to P!nk on Spotify: http://smarturl.it/PSpot?",
+            "htmlSnippet": "Oct 25, 2009 <b>...</b> <b>P!nk&#39;s</b> official music video for &#39;F**kin&#39; Perfect (Perfect)&#39;. Click to listen to <b>P!nk</b> on Spotify: http://smarturl.it/PSpot?",
+            "cacheId": "orFi-uFy9YYJ",
+            "formattedUrl": "https://www.youtube.com/watch?v=eocCPDxKq1o",
+            "htmlFormattedUrl": "https://www.youtube.com/watch?v=eocCPDxKq1o",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTELLO_Ky_FP0hie9Y0m6Ym-lHTfgryYExg_BezqPKmrfWI07lblAK17OA",
+                        "width": "299",
+                        "height": "168"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "apple-itunes-app": "app-id=544007664, app-argument=https://m.youtube.com/watch?v=eocCPDxKq1o&referring_app=com.apple.mobilesafari-smartbanner, affiliate-data=ct=smart_app_banner_polymer&pt=9008",
+                        "theme-color": "rgba(0, 0, 0, 0)",
+                        "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,",
+                        "twitter:url": "https://www.youtube.com/watch?v=eocCPDxKq1o",
+                        "og:url": "https://www.youtube.com/watch?v=eocCPDxKq1o"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://i.ytimg.com/vi/8UVNT4wvIGY/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGGUgRyhCMA8=&rs=AOn4CLAaWgi-CPm--FtKN25A8zhaqUz44g"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Please Don't Leave Me - Wikipedia",
+            "htmlTitle": "<b>Please Don&#39;t Leave</b> Me - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Please_Don%27t_Leave_Me",
+            "displayLink": "en.wikipedia.org",
+            "snippet": "\"Please Don't Leave Me\" is a song from American singer Pink and the third single taken from her fifth studio album Funhouse. It was released on February 16, ...",
+            "htmlSnippet": "&quot;<b>Please Don&#39;t Leave</b> Me&quot; is a song from American singer <b>Pink</b> and the third single taken from her fifth studio album Funhouse. It was released on February 16,&nbsp;...",
+            "cacheId": "rra_GCknetQJ",
+            "formattedUrl": "https://en.wikipedia.org/wiki/Please_Don%27t_Leave_Me",
+            "htmlFormattedUrl": "https://en.wikipedia.org/wiki/<b>Please</b>_Don%27t_<b>Leave</b>_Me",
+            "pagemap": {
+                "metatags": [
+                    {
+                        "referrer": "origin",
+                        "og:image": "https://upload.wikimedia.org/wikipedia/en/0/08/Please_don%27t_leave_me.jpg",
+                        "theme-color": "#eaecf0",
+                        "og:image:width": "1200",
+                        "og:type": "website",
+                        "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+                        "og:title": "Please Don't Leave Me - Wikipedia",
+                        "og:image:height": "1095",
+                        "format-detection": "telephone=no"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Pink - please don't leave me lyrics - YouTube",
+            "htmlTitle": "<b>Pink</b> - <b>please don&#39;t leave</b> me <b>lyrics</b> - YouTube",
+            "link": "https://www.youtube.com/watch?v=4wmgBG0_lZk",
+            "displayLink": "www.youtube.com",
+            "snippet": "Jan 24, 2009 ... I really think the moral of this song is that she doesn't necessarily abuse him (even if she does in the video) I think this song is about ...",
+            "htmlSnippet": "Jan 24, 2009 <b>...</b> I really think the moral of this song is that she doesn&#39;t necessarily abuse him (even if she does in the video) I think this song is about&nbsp;...",
+            "cacheId": "2bJW8_NOu70J",
+            "formattedUrl": "https://www.youtube.com/watch?v=4wmgBG0_lZk",
+            "htmlFormattedUrl": "https://www.youtube.com/watch?v=4wmgBG0_lZk",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQh9R0Tjf-9dXbCD0eXnrYSNoNZgZBmXo6ZdR_pOV7iXbBst_hmS4GjMzjm",
+                        "width": "299",
+                        "height": "168"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "apple-itunes-app": "app-id=544007664, app-argument=https://m.youtube.com/watch?v=4wmgBG0_lZk&referring_app=com.apple.mobilesafari-smartbanner, affiliate-data=ct=smart_app_banner_polymer&pt=9008",
+                        "theme-color": "rgba(0, 0, 0, 0)",
+                        "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,",
+                        "twitter:url": "https://www.youtube.com/watch?v=4wmgBG0_lZk",
+                        "og:url": "https://www.youtube.com/watch?v=4wmgBG0_lZk"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://i.ytimg.com/vi/I3-49szx--0/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGHIgOig6MA8=&rs=AOn4CLDeSse0iPivRgD-PYGoki0MLOyKlw"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "P!nk – Please Don't Leave Me Lyrics | Genius Lyrics",
+            "htmlTitle": "<b>P!nk</b> – <b>Please Don&#39;t Leave</b> Me <b>Lyrics</b> | Genius <b>Lyrics</b>",
+            "link": "https://genius.com/P-nk-please-dont-leave-me-lyrics",
+            "displayLink": "genius.com",
+            "snippet": "Please Don't Leave Me Lyrics: Da-da-da-da / Da-da-da-da / Da-da-da-da-da / I don't know if I can yell any louder / How many times have I kicked you out of ...",
+            "htmlSnippet": "<b>Please Don&#39;t Leave</b> Me <b>Lyrics</b>: Da-da-da-da / Da-da-da-da / Da-da-da-da-da / I don&#39;t know if I can yell any louder / How many times have I kicked you out of&nbsp;...",
+            "cacheId": "OWGjZZO0bmIJ",
+            "formattedUrl": "https://genius.com/P-nk-please-dont-leave-me-lyrics",
+            "htmlFormattedUrl": "https://genius.com/P-nk-<b>please</b>-<b>dont</b>-<b>leave</b>-me-lyrics",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOyRDvTItxvxLH0eo-8tfMUSxEmZLoZiNNNAJ6qJ-r8RP-FSEIx0B6cXGI",
+                        "width": "225",
+                        "height": "225"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "apple-itunes-app": "app-id=709482991",
+                        "og:image": "https://images.genius.com/1e883428b6b028c15b30be0177e447fe.1000x1000x1.jpg",
+                        "twitter:app:url:iphone": "genius://songs/195168",
+                        "og:type": "music.song",
+                        "twitter:title": "P!nk – Please Don't Leave Me",
+                        "twitter:card": "summary_large_image",
+                        "theme-color": "#d08d2e",
+                        "og:site_name": "Genius",
+                        "twitter:url": "https://genius.com/P-nk-please-dont-leave-me-lyrics",
+                        "og:title": "P!nk – Please Don't Leave Me",
+                        "y_key": "f63347d284f184b0",
+                        "twitter:app:id:iphone": "709482991",
+                        "fb:pages": "308252472676410",
+                        "og:description": "“Please Don’t Leave Me” was released as the third single from the album, Funhouse.\n\n“Please Don’t Leave Me” is a mid-tempo track that details a love-hate relationship. Pink sings",
+                        "twitter:image": "https://images.genius.com/1e883428b6b028c15b30be0177e447fe.1000x1000x1.jpg",
+                        "fb:app_id": "265539304824",
+                        "twitter:site": "@Genius",
+                        "viewport": "width=device-width,initial-scale=1",
+                        "twitter:description": "“Please Don’t Leave Me” was released as the third single from the album, Funhouse.\n\n“Please Don’t Leave Me” is a mid-tempo track that details a love-hate relationship. Pink sings",
+                        "og:url": "https://genius.com/P-nk-please-dont-leave-me-lyrics",
+                        "twitter:type": "music.song",
+                        "twitter:app:name:iphone": "Genius"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://images.genius.com/1e883428b6b028c15b30be0177e447fe.1000x1000x1.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Please Don't Leave Me - Pink - Guitar chords and tabs",
+            "htmlTitle": "<b>Please Don&#39;t Leave</b> Me - <b>Pink</b> - Guitar chords and tabs",
+            "link": "https://www.e-chords.com/chords/pink/please-dont-leave-me",
+            "displayLink": "www.e-chords.com",
+            "snippet": "Please Don't Leave Me Guitar chords and tabs by Pink. Learn to play Guitar by chords / tabs using chord diagrams, watch video lessons and more.",
+            "htmlSnippet": "<b>Please Don&#39;t Leave</b> Me Guitar chords and tabs by <b>Pink</b>. Learn to play Guitar by chords / tabs using chord diagrams, watch video lessons and more.",
+            "cacheId": "fCv6SIZEMk8J",
+            "formattedUrl": "https://www.e-chords.com/chords/pink/please-dont-leave-me",
+            "htmlFormattedUrl": "https://www.<b>e</b>-chords.com/chords/<b>pink</b>/<b>please</b>-<b>dont</b>-<b>leave</b>-me",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSya0vXZjc7LUSciP28bNbR3O5pfH1HNfMZOqNNXPU6x9tPxFJoc9vUS-Y",
+                        "width": "348",
+                        "height": "145"
+                    }
+                ],
+                "musicrecording": [
+                    {
+                        "image": "https://www.letras.com.br/arquivos/fotos/artistas/thumb1/26/2599,225971.jpg",
+                        "name": "Please Don't Leave Me",
+                        "url": "/chords/pink/please-dont-leave-me"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://www.cifras.com.br/arquivos/artistas/p/pink_big.jpg",
+                        "twitter:card": "summary",
+                        "theme-color": "#0D5374",
+                        "msapplication-square70x70logo": "https://m.e-chords.com/img/favicon/mstile-70x70.png",
+                        "apple-mobile-web-app-title": "E-Chords Mobile",
+                        "msapplication-wide310x150logo": "https://m.e-chords.com/img/favicon/mstile-310x150.png",
+                        "msapplication-tileimage": "https://m.e-chords.com/img/favicon/mstile-144x144.png",
+                        "og:description": "PLEASE DON'T LEAVE ME Chords by Pink. Learn to play Guitar by tabs using chords diagrams, watch video lessons and much more.",
+                        "twitter:image": "https://www.cifras.com.br/arquivos/artistas/p/pink_big.jpg",
+                        "msapplication-square310x310logo": "https://m.e-chords.com/img/favicon/mstile-310x310.png",
+                        "fb:admins": "petaxxon",
+                        "vr:image": "https://www.cifras.com.br/arquivos/artistas/p/pink_big.jpg",
+                        "application-name": "E-Chords Mobile",
+                        "msapplication-tilecolor": "#0D5374",
+                        "og:type": "music.song",
+                        "twitter:title": "PLEASE DON'T LEAVE ME Chords by Pink - E-Chords.com",
+                        "author": "E-chords.com",
+                        "og:title": "PLEASE DON'T LEAVE ME Chords by Pink - E-Chords.com",
+                        "msapplication-navbutton-color": "#0D5374",
+                        "msapplication-square150x150logo": "https://m.e-chords.com/img/favicon/mstile-150x150.png",
+                        "fb:app_id": "551770354983506",
+                        "apple-mobile-web-app-status-bar-style": "#0D5374",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "apple-mobile-web-app-capable": "yes",
+                        "mobile-web-app-capable": "yes",
+                        "og:url": "https://m.e-chords.com/chords/pink/please-dont-leave-me"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://www.cifras.com.br/arquivos/artistas/p/pink_big.jpg"
+                    }
+                ],
+                "listitem": [
+                    {
+                        "item": "Home",
+                        "name": "Home",
+                        "position": "1"
+                    },
+                    {
+                        "item": "Chords",
+                        "name": "Chords",
+                        "position": "2"
+                    },
+                    {
+                        "item": "Pink",
+                        "name": "Pink",
+                        "position": "3"
+                    },
+                    {
+                        "item": "Please Don't Leave Me",
+                        "name": "Please Don't Leave Me",
+                        "position": "4"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "PLEASE DONT LEAVE ME BASS by P!nk @ Ultimate-Guitar.Com",
+            "htmlTitle": "<b>PLEASE DONT LEAVE</b> ME BASS by <b>P!nk</b> @ Ultimate-Guitar.Com",
+            "link": "https://tabs.ultimate-guitar.com/tab/pnk/please-dont-leave-me-bass-891209",
+            "displayLink": "tabs.ultimate-guitar.com",
+            "snippet": "PINK - Please Don't Leave Me Lead / Rhythm follow the chords as below but with Capo on 1st Fret so bass notes follow C#, G# etc. (although I have left the ...",
+            "htmlSnippet": "<b>PINK</b> - <b>Please Don&#39;t Leave</b> Me Lead / Rhythm follow the chords as below but with Capo on 1st Fret so bass notes follow C#, G# etc. (although I have <b>left</b> the&nbsp;...",
+            "cacheId": "uwUbKR-tL0kJ",
+            "formattedUrl": "https://tabs.ultimate-guitar.com/tab/pnk/please-dont-leave-me-bass-891209",
+            "htmlFormattedUrl": "https://tabs.ultimate-guitar.com/tab/pnk/<b>please</b>-<b>dont</b>-<b>leave</b>-me-bass-891209",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTjc9ZyCnid---06Pt6Mkl89II8Dkes0YxfeovmxThTENLsVWgwZ8WqQUM",
+                        "width": "200",
+                        "height": "200"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "application-name": "Ultimate Guitar",
+                        "og:image": "https://tabs.ultimate-guitar.com/static/_img/ug-logo-fb.png",
+                        "theme-color": "#272727",
+                        "fb:app_id": "539490962762175",
+                        "og:type": "music.song",
+                        "viewport": "width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, viewport-fit=cover",
+                        "csrf-token": "m4LEqGUjfOlReW0AvXgieOHKF8sq004x2Ssw1WMgKnrK053eFBQxsAkaNXHEMxtAj4ZEuUSJOHSfaWShD2V-Hg==",
+                        "og:title": "P!Nk - Please Dont Leave Me (Bass)",
+                        "mobile-web-app-capable": "yes",
+                        "og:url": "https://tabs.ultimate-guitar.com/tab/pnk/please_dont-leave-me-bass_891209",
+                        "csrf-param": "_csrf",
+                        "og:description": "BASS by P!nk"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://tabs.ultimate-guitar.com/static/_img/ug-logo-fb.png"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Pink - Please Don't Leave Me | Music | The Guardian",
+            "htmlTitle": "<b>Pink</b> - <b>Please Don&#39;t Leave</b> Me | Music | The Guardian",
+            "link": "https://www.theguardian.com/music/2009/feb/12/pink-please-dont-leave-me",
+            "displayLink": "www.theguardian.com",
+            "snippet": "Feb 12, 2009 ... Pickard of the pops: In preparation for Valentine's Day, here's a guide to being a good partner, lover, and spouse - by Pink.",
+            "htmlSnippet": "Feb 12, 2009 <b>...</b> Pickard of the pops: In preparation for Valentine&#39;s Day, here&#39;s a guide to being a good partner, lover, and spouse - by <b>Pink</b>.",
+            "cacheId": "9bDPxUaP7FQJ",
+            "formattedUrl": "https://www.theguardian.com/music/2009/feb/.../pink-please-dont-leave-me",
+            "htmlFormattedUrl": "https://www.theguardian.com/music/2009/feb/.../<b>pink</b>-<b>please</b>-<b>dont</b>-<b>leave</b>-me",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTJ_P_RshA8IAc3kSIqfMPKg1DA2o8bpl-kFeD0-SaNxhyUfWsu7LXECH0G",
+                        "width": "310",
+                        "height": "163"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://assets.guim.co.uk/images/eada8aa27c12fe2d5afa3a89d3fbae0d/fallback-logo.png",
+                        "twitter:app:id:googleplay": "com.guardian",
+                        "twitter:app:url:iphone": "gnmguardian://music/2009/feb/12/pink-please-dont-leave-me?contenttype=Article&source=twitter",
+                        "theme-color": "#052962",
+                        "og:image:width": "1200",
+                        "article:published_time": "2009-02-12T12:22:24.000Z",
+                        "twitter:card": "summary_large_image",
+                        "og:site_name": "the Guardian",
+                        "twitter:app:url:ipad": "gnmguardian://music/2009/feb/12/pink-please-dont-leave-me?contenttype=Article&source=twitter",
+                        "twitter:app:name:googleplay": "The Guardian",
+                        "al:ios:url": "gnmguardian://music/2009/feb/12/pink-please-dont-leave-me?contenttype=Article&source=applinks",
+                        "twitter:app:id:iphone": "409128287",
+                        "og:description": "Pickard of the pops: In preparation for Valentine's Day, here's a guide to being a good partner, lover, and spouse - by Pink",
+                        "article:publisher": "https://www.facebook.com/theguardian",
+                        "al:ios:app_store_id": "409128287",
+                        "twitter:dnt": "on",
+                        "twitter:image": "https://assets.guim.co.uk/images/eada8aa27c12fe2d5afa3a89d3fbae0d/fallback-logo.png",
+                        "twitter:site": "@guardian",
+                        "article:modified_time": "2017-05-31T20:06:45.000Z",
+                        "og:type": "article",
+                        "article:section": "Music",
+                        "al:ios:app_name": "The Guardian",
+                        "og:title": "Pickard of the pops: Pink - Please Don't Leave Me",
+                        "twitter:app:id:ipad": "409128287",
+                        "article:author": "https://www.theguardian.com/profile/annapickard",
+                        "article:tag": "Music,Pop and rock,Culture,Pink",
+                        "fb:app_id": "180444840287",
+                        "twitter:app:url:googleplay": "guardian://www.theguardian.com/music/2009/feb/12/pink-please-dont-leave-me",
+                        "twitter:app:name:ipad": "The Guardian",
+                        "viewport": "width=device-width,minimum-scale=1,initial-scale=1",
+                        "og:url": "http://www.theguardian.com/music/2009/feb/12/pink-please-dont-leave-me",
+                        "twitter:app:name:iphone": "The Guardian"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://assets.guim.co.uk/images/eada8aa27c12fe2d5afa3a89d3fbae0d/fallback-logo.png"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Pink - Please Don't Leave Me Lyrics | AZLyrics.com",
+            "htmlTitle": "<b>Pink</b> - <b>Please Don&#39;t Leave</b> Me <b>Lyrics</b> | AZLyrics.com",
+            "link": "https://www.azlyrics.com/lyrics/pink/pleasedontleaveme.html",
+            "displayLink": "www.azlyrics.com",
+            "snippet": "Pink \"Please Don't Leave Me\": Da da da da Da da da da Da da da da da I don't know if I can yell any louder How many times have I...",
+            "htmlSnippet": "<b>Pink</b> &quot;<b>Please Don&#39;t Leave</b> Me&quot;: Da da da da Da da da da Da da da da da I don&#39;t know if I can yell any louder How many times have I...",
+            "formattedUrl": "https://www.azlyrics.com/lyrics/pink/pleasedontleaveme.html",
+            "htmlFormattedUrl": "https://www.azlyrics.com/lyrics/<b>pink</b>/<b>pleasedontleave</b>me.html",
+            "pagemap": {
+                "metatags": [
+                    {
+                        "og:image": "//www.azlyrics.com/az_logo_tr.png",
+                        "viewport": "width=device-width, initial-scale=1"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "//www.azlyrics.com/az_logo_tr.png"
+                    }
+                ],
+                "listitem": [
+                    {
+                        "item": "AZLyrics",
+                        "name": "AZLyrics",
+                        "position": "1"
+                    },
+                    {
+                        "item": "P",
+                        "name": "P",
+                        "position": "2"
+                    },
+                    {
+                        "item": "Pink Lyrics",
+                        "name": "Pink Lyrics",
+                        "position": "3"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Pink - Please Don't Leave Me MBTI Stereotypes: ESTP or ESTJ?",
+            "htmlTitle": "<b>Pink</b> - <b>Please Don&#39;t Leave</b> Me MBTI Stereotypes: ESTP or ESTJ?",
+            "link": "https://www.personality-database.com/profile/343828/pink-please-dont-leave-me-2000s-songs-mbti-personality-type",
+            "displayLink": "www.personality-database.com",
+            "snippet": "Dec 23, 2022 ... Michael Buble- L O V E From 2000's songs [Verse] L is for the way you look at me O is for the only one I see V is very, very extraordinary E ...",
+            "htmlSnippet": "Dec 23, 2022 <b>...</b> Michael Buble- L O V E From 2000&#39;s songs [Verse] L is for the way you look at me O is for the only one I see V is very, very extraordinary <b>E</b>&nbsp;...",
+            "cacheId": "tdDqYqgl8yQJ",
+            "formattedUrl": "https://www.personality-database.com/.../pink-please-dont-leave-me-2000s-...",
+            "htmlFormattedUrl": "https://www.personality-database.com/.../<b>pink</b>-<b>please</b>-<b>dont</b>-<b>leave</b>-me-2000s-...",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTQlzQeSxqFwTEngpYpbpo38jBeO5VR9Br11M25zJ9gCkt0MStGORhV4Gw",
+                        "width": "200",
+                        "height": "200"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://static1.personality-database.com/profile_images/4b61d3b90ae64eb7832111dfb7ca6f31.png",
+                        "apple-itunes-app": "app-id=1614566357, app-argument=pdb://home",
+                        "twitter:card": "summary",
+                        "og:type": "article",
+                        "og:image:width": "200",
+                        "theme-color": "#0E2D31",
+                        "og:title": "Pink - Please Don't Leave Me MBTI Stereotypes: ESTP or ESTJ?",
+                        "og:image:height": "200",
+                        "og:description": "Pink - Please Don't Leave Me is an ESTP personality type and 8w9 in Enneagram. Read 0 discussions on Pink - Please Don't Leave Me's personality in 2000's Songs (Music). 👉",
+                        "twitter:site": "@pdbee_app",
+                        "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0",
+                        "og:url": "https://www.personality-database.com/profile/343828/pink-please-dont-leave-me-2000s-songs-mbti-personality-type",
+                        "google-signin-client_id": "525360879715-3kfn0tge3t1nouvk9ol5jgaiv2rtp0s9.apps.googleusercontent.com"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://static1.personality-database.com/profile_images/4b61d3b90ae64eb7832111dfb7ca6f31.png"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Gender-Based Violence in Pink's \"Please Don't Leave Me\"",
+            "htmlTitle": "Gender-Based Violence in <b>Pink&#39;s</b> &quot;<b>Please Don&#39;t Leave</b> Me&quot;",
+            "link": "https://www.thesociologicalcinema.com/videos/gender-based-violence-in-pinks-please-dont-leave-me",
+            "displayLink": "www.thesociologicalcinema.com",
+            "snippet": "Feb 10, 2014 ... This video is centered around Pink's various (violent) attempts to prevent her partner from leaving. She keeps her partner as a prisoner in her ...",
+            "htmlSnippet": "Feb 10, 2014 <b>...</b> This video is centered around <b>Pink&#39;s</b> various (violent) attempts to prevent her partner from <b>leaving</b>. She keeps her partner as a prisoner in her&nbsp;...",
+            "cacheId": "qqf9kHIDJF8J",
+            "formattedUrl": "https://www.thesociologicalcinema.com/.../gender-based-violence-in-pinks-...",
+            "htmlFormattedUrl": "https://www.thesociologicalcinema.com/.../gender-based-violence-in-<b>pink</b>s-...",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyZIgySz0cQg63LKzLlQ-C3LcNN1SfiR0s-SxTNbklLUyEzuFq5LgL4E0",
+                        "width": "259",
+                        "height": "194"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "p:domain_verify": "fbfe909a685c0394b05986621bf65a4a",
+                        "og:image": "http://www.thesociologicalcinema.com/uploads/4/8/3/9/4839762/2147317.jpg?1391204495",
+                        "twitter:card": "summary_large_image",
+                        "twitter:title": "The Sociological Cinema",
+                        "og:site_name": "@TheSocyCinema",
+                        "og:title": "Gender-Based Violence in Pink's \"Please Don't Leave Me\"",
+                        "og:description": "Tags:   gender , health/medicine , inequality , violence , domestic violence, gender violence, masculinity, partner abuse, power relations, sexualizing violence,  00 to 05 mins Year: 2009 Length...",
+                        "twitter:creator": "@TheSocyCinema",
+                        "twitter:image": "http://www.thesociologicalcinema.com/uploads/4/8/3/9/4839762/header_images/1412040644.jpg",
+                        "twitter:site": "@TheSocyCinema",
+                        "viewport": "width=device-width, initial-scale=1.0;",
+                        "twitter:description": "Teaching and Learning Sociology through Video",
+                        "og:url": "http://www.thesociologicalcinema.com/1/post/2014/02/gender-based-violence-in-pinks-please-dont-leave-me.html"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "http://www.thesociologicalcinema.com/uploads/4/8/3/9/4839762/2147317.jpg?1391204495"
+                    }
+                ]
+            }
+        }
+    ]
+}
